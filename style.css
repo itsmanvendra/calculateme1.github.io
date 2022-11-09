@@ -1,10 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 html, body{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom right, rgba(79,51,176,1), rgba(210,53,165));
+    /* background-image: linear-gradient(to bottom right, rgba(79,51,176,1), rgba(210,53,165)); */
+    background-image: url(/topography.svg),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+  
     font-family: 'Poppins', sans-serif;
     color: white;
     overflow: hidden;
