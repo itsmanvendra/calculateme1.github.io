@@ -1,2 +1,6 @@
 # calculateme.github.io
- Its a calculayor using html, css and javascript
+This is a HTML calculator used for performing basic mathematical operations like Addition, Subtraction, Multiplication  and Division. 
+Tools and Technology used : HTML, CSS, Javascript.
+HTML is used to design the basic structure of the calculator.
+CSS is used to apply styles on the calculator and make website responsive.
+Javascript is used to add the calculation functionality.
