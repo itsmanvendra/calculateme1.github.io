@@ -4,3 +4,4 @@ Tools and Technology used : HTML, CSS, Javascript.
 HTML is used to design the basic structure of the calculator.
 CSS is used to apply styles on the calculator and make website responsive.
 Javascript is used to add the calculation functionality.
+Most important we can switch between the theme i.e. dark mode or light mode.
