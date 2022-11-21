@@ -4,7 +4,7 @@ html, body{
     height: 100%;
     width: 100%;
     /* background-image: linear-gradient(to bottom right, rgba(79,51,176,1), rgba(210,53,165)); */
-    background-image: url(/topography.svg),
+    background-image: url(./topography.svg),
     linear-gradient(110deg, #f93d66, #6d47d9);
   
     font-family: 'Poppins', sans-serif;
@@ -12,9 +12,7 @@ html, body{
     overflow: hidden;
 
 }
-.button{
-    background-color: black;
-    color: white;
+.button, .theme{
     padding: 15px;
     width: 50px;
     margin: 7px 3px;
@@ -24,22 +22,34 @@ html, body{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
    transition: all 0.3s ease 0s;
 
-} 
+}
+.light{
+    background-color: aliceblue;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+
 .button:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: scale(1.1);
   }
+
 .row{
     margin: 12px, 0px;
+    
 }
+
 
 .row input{
     background-color: black;
     font-family: 'Karla', sans-serif;
     color: white;
-    width: 230px;
+    width: 240px;
     font-size: 23px;
     margin: 30px 5px;
     padding: 10px 0px;
